@@ -2,11 +2,15 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 
+
+
 li{
     list-style-type: none;
 }
 ul{
     display: flex;
+    overflow: hidden;
+    
 }
 .li-tag{
     margin-top: 1.3rem;
@@ -169,11 +173,17 @@ section>p{
 
 .cards-section{
     display: flex;
+    margin-top: 3rem;
     margin-left: 4rem;
+    margin-right: 4rem;
     justify-content: space-between;
 }
 .card{
     box-shadow: 10px 10px 10px lightblue;
+}
+
+.card-text{
+    margin-left: 10px;
 }
 
 .card-div{
@@ -183,4 +193,43 @@ section>p{
 
 .date-card{
     margin-left: 11rem;
+}
+
+.footer{
+    width:1386px;
+    height:707px;
+    background-image: linear-gradient(to  right, rgb(234, 220, 220), rgb(163, 227, 163));
+    margin-left: 4rem;
+    margin-top: 3rem;
+    border-radius: 30px;
+}
+
+.footer-div{
+    display: flex;
+    margin-left: 1rem;
+}
+
+.footer-div>p{
+    margin-left: 14rem;
+    margin-top: 14rem;
+    margin-bottom: 0px;
+}
+
+.footer-div>img{
+    margin-top: 5rem;
+}
+
+.footer-btn{
+    border: none;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-left: 15rem;  
+    padding: 7px 20px;  
+    background-image: linear-gradient(to right, rgba(44, 86, 170, 1),
+    rgba(59, 176, 139, 1));
+    cursor: pointer;         
+     
+}
+.footer-btn:hover{
+    opacity: 0.7;
 }
